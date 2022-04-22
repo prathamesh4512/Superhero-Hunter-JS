@@ -32,29 +32,6 @@ a{
     text-decoration: none;
     color:var(--font_color_1);
 }
-/* 
-nav{
-    padding: 10px 30px;
-    background-color:darkred;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top:0;
-    right:0;
-    left:0;
-} 
-
-
-#home-fav{
-    display: flex;
-    gap: 15px;
-}
-
-#home-fav>p{
-    font-size: 20px;
-}*/
 
 /* Navigation Bar */
 nav{
@@ -74,15 +51,12 @@ nav{
 
 /* SuperHero logo */
 #superhero-logo-name{
-    /* color:black; */
     font-size: 20px;
-    /* font-weight: bold; */
-
+ 
     color:var(--font_color_2);
 	text-shadow: 1px 1px 2px #f01c, 1px -1px 2px #f0cc, 
 	-1px 1px 2px #f0cc, -1px -1px 2px #f0cc, 0px 0px 16px #f0fa,
 	0 0 64px #f0fd;
-	/* font-family: helvetica, sans-serif; */
 }
 
 /* Home & Fav section */
@@ -91,7 +65,6 @@ nav{
     gap: 15px;
     font-size: 25px;
     font-weight: bold;
-    /* margin: auto; */
 }
 
 /* SuperHero adding/removing notification */
@@ -106,7 +79,6 @@ nav{
     top:130px;
     right:10px;
     z-index: 1;
-    /* transform: translateX(250px); */
     opacity: 0;
     transition:opacity 0.5s ease-in-out ;
 }
@@ -144,7 +116,6 @@ nav{
 
 /* searched superhero display section */
 #superHeros{
-    /* width:100%; */
     padding:5px;
     margin: 15px;
     margin-bottom: 50px;
@@ -174,10 +145,6 @@ nav{
     box-shadow: 0 0 2px 3px rgba(255, 255, 255, 1);
 }
 
-/* .superHero-img{
-    max-height: 400px; 
-     width: 100%; 
-} */
 
 /* supehero image */
 .superHero-img>img{
