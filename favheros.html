@@ -1,0 +1,61 @@
+<!--DOCTYPE html tells the browser that the document is a html page-->
+<!DOCTYPE html>
+<!--Begining of html code-->
+<html lang="en">
+<!--Begining of head section-->
+<head>
+    <!--Adds responsiveness to the website-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Linking the Favicon file-->
+    <link rel="shortcut icon" type="image/png" href="image/icon.png"/>
+     <!--Linking the CSS file-->
+    <link rel="stylesheet" href="css/favheros-style.css">
+    <title>Super Hero Hunter</title>
+</head>
+<!--End of Head Section-->
+
+<!--Begining of Body Section-->
+<body>
+    <!--Begining of navigation bar section-->
+    <nav>
+        <!-- SuperHero Logo & Name Div -->
+        <div id="superhero-logo-name">
+        <h3>SuperHero <br> Hunter</h3>
+        </div>
+
+        <!-- Home & Fav Div -->
+        <div id="home-fav">
+        <!-- On clicking directed to homepage -->
+        <p><a href="index.html">Home</a></p>
+        <!-- On clicking directed to favourite heros page -->
+        <p><a href="favheros.html">Favourites</a></p>
+        </div>
+
+    </nav>
+    <!-- End of navigation bar section -->
+    
+    <main>
+        <!-- Notification of adding or removing superhero from favourites -->
+        <div id="msg-section">
+           Removed from Favourites
+        </div>
+        <!-- Div if no favourite heros present-->
+        <div id="no-favourite">
+            No superheros are added.<br>
+            Go to <a style="color:#ffeb3b; text-decoration: underline;"  href="index.html">HOME</a> and add your favourite
+            superheros.
+        </div>
+
+        <!-- Display added favourite superHeros -->
+        <div id="superHeros">
+            
+        </div>
+    </main>
+    <!-- Linking script file -->
+    <script src="js/favheros-script.js"></script>
+    <!-- Linking font awesome file -->
+    <script src="https://kit.fontawesome.com/dda61a1448.js" crossorigin="anonymous"></script>
+</body>
+</html>

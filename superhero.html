@@ -1,0 +1,192 @@
+<!--DOCTYPE html tells the browser that the document is a html page-->
+<!DOCTYPE html>
+<!--Begining of html code-->
+<html lang="en">
+<!--Begining of head section-->
+<head>
+    <!--Adds responsiveness to the website-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Linking the Favicon file-->
+    <link rel="shortcut icon" type="image/png" href="image/icon.png"/>
+     <!--Linking the CSS file-->
+    <link rel="stylesheet" href="css/superhero-style.css">
+    <title>Super Hero</title>
+</head>
+<!--End of Head Section-->
+
+<!--Begining of Body Section-->
+<body>
+<!--Begining of navigation bar section-->
+    <nav>
+        <!-- SuperHero Logo & Name Div -->
+        <div id="superhero-logo-name">
+        <h3>SuperHero <br> Hunter</h3>
+        </div>
+
+        <!-- Home & Fav Div -->
+        <div id="home-fav">
+        <!-- On clicking directed to homepage -->
+        <p><a href="index.html">Home</a></p>
+        <!-- On clicking directed to favourite heros page -->
+        <p><a href="favheros.html">Favourites</a></p>
+        </div>
+
+    </nav>
+    <!-- End of navigation bar section -->
+
+    <!-- Main body section -->
+    <main>
+        <!-- Superhero image & powerstats section -->
+    <section id="img-powerstats">
+        <!-- Superhero image div -->
+        <div id="img-container">
+            <img id="img" src="">
+        </div>
+
+        <!-- Name & powerstats Div -->
+        <div id="name-stats">
+            <!-- Name div -->
+            <div id="name-ctn">
+                <h1 id="name">Super hero</h1>
+            </div>
+            <!-- Powerstats div -->
+            <div id="stats-section">
+                <!-- Section-heading -->
+                <h3 class="section-heading">POWER STATS</h3>
+                <!-- Power stats details -->
+                <div class="hero-details">
+                    <!-- Individual powerstats div -->
+                <div>
+                    <!-- Name of power -->
+                    <span class="title">Intelligence : </span>
+                    <!-- Value of power in %-->
+                    <span id="intelligence">10</span>
+                </div>
+                <!-- End of Individual powerstats div -->
+
+                <div>
+                    <span class="title">Strength : </span>
+                    <span id="strength">10</span>
+                </div>
+
+                <div>
+                    <span class="title">Speed : </span>
+                    <span id="speed">10</span>
+                </div>
+
+                <div>
+                    <span class="title">Durability : </span>
+                    <span id="durability">10</span>
+                </div>
+
+                <div>
+                    <span class="title">Power : </span>
+                    <span id="power">10</span>
+                </div>
+
+                <div>
+                    <span class="title">Combat : </span>
+                    <span id="combat">10</span>
+                </div>
+             </div>
+             <!-- End of power stats details div  -->
+            </div>
+            <!--End of power stats div  -->
+        </div>
+        <!-- End od name & powerstats div -->
+    </section>
+    <!-- End of superhero img & powerstats section -->
+
+    <!-- BIOGRAPHY section -->
+    <section class="details-section">
+        <!-- section heading -->
+        <h2 class="section-heading">BIOGRAPHY</h2>
+        <!-- Biography details div -->
+        <div class="hero-details">
+            <!-- Individual item -->
+            <div>
+                <!-- Name of item -->
+                <span class="title">Full Name : </span>
+                <!-- Value of item -->
+                <span id="full-name">Super-Hero-Name</span>
+            </div>
+            <!-- End of Individual item -->
+            <div>
+                <span class="title">Alter-Egos : </span>
+                <span id="alter-egos">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Aliases : </span>
+                <span id="aliases">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Place of birth : </span>
+                <span id="place-of-birth">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">First Appearance : </span>
+                <span id="first-appearance">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Publisher : </span>
+                <span id="publisher">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Alignment : </span>
+                <span id="alignment">Super-Hero-Name</span>
+            </div>
+        </div>
+        <!-- End of Biography details section -->
+    </section>
+    <!-- End of Biography section -->
+
+    <!-- Appearance section -->
+    <section class="details-section">
+        <!-- Section heading -->
+        <h2 class="section-heading">APPEARANCE</h2>
+        <!-- Appearance details section -->
+        <div class="hero-details">
+            <!-- Individual item div -->
+            <div>
+                <!-- Name of item -->
+                <span class="title">Gender : </span>
+                <!-- Value of item -->
+                <span id="gender">MAle</span>
+            </div>
+            <!-- End of Individual item div -->
+            <div>
+                <span class="title">Race : </span>
+                <span id="race">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Height : </span>
+                <span id="height">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Weight : </span>
+                <span id="weight">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Eye-Color : </span>
+                <span id="eye-color">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Hair-Color : </span>
+                <span id="hair-color">Super-Hero-Name</span>
+            </div>
+            <div>
+                <span class="title">Alignment : </span>
+                <span id="alignment">Super-Hero-Name</span>
+            </div>
+        </div>
+          <!--End of Appearance details section -->
+    </section>
+    <!-- End of Appearance section -->
+
+</main>
+    <!--Linking script file -->
+    <script src="js/superhero-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* css variables */
+:root{
+    --bg_body_color :  #795548e8;
+    --bg_section_color:#795548;
+    --bg_name_color: #303030;
+    --bg_header_color:darkred;
+    --bg_msg_color:#ff9800; 
+    --bg_input_color:blueviolet; 
+    --bg_hero_color: rgba(255,255,255,0.5);
+    --font_color_1: white;
+    --font_color_2 :lightgrey;
+    --font_color_3: #02122efa;
+    --heart_color :#a90505;
+}
+
+body{
+    margin: 0;
+    color:var(--font_color_1);
+    background-color:var(--bg_body_color);
+    padding-bottom: 30px;;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font_color_1);
+}
+
+/* navigation Bar */
+nav{
+    padding: 10px 30px;
+    background-color:var(--bg_header_color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    right: 0;
+    left: 0;
+} 
+
+/* SuperHero logo */
+#superhero-logo-name{
+    /* color:black; */
+    font-size: 20px;
+    /* font-weight: bold; */
+
+    color: var(--font_color_2);
+	text-shadow: 1px 1px 2px #f01c, 1px -1px 2px #f0cc, 
+	-1px 1px 2px #f0cc, -1px -1px 2px #f0cc, 0px 0px 16px #f0fa,
+	0 0 64px #f0fd;
+	/* font-family: helvetica, sans-serif; */
+}
+
+/* Home & Fav section */
+#home-fav{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    /* margin: auto; */
+}
+
+/* changing bg color for even section in main div */
+main>section:nth-of-type(2n){
+    background-color:var(--bg_section_color) ;
+}
+
+main{
+    margin-top: 10px;
+}
+
+/* superhero image & powerstats */
+#img-powerstats{
+    display: flex;
+    padding: 30px;
+    /* background-color:#795548; */
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap:30px;
+    font-size: 25px;
+}
+
+/* #img-container{
+    align-self: center; */
+    /* width: 30%;
+} */
+
+/* superhero image */
+#img-container>img{            
+    /* width:100%; */
+    /* min-width: 200px; */
+    /* max-width: 300px; */
+    max-height: 400px;
+    display: block;
+}
+
+/*#name-stats{
+    /* display: grid; */
+    /* justify-content:space-evenly; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    width: 90%;
+    
+ } */
+
+
+ #name-stats{
+     width:40%;
+ }
+
+/* superhero name  */
+#name{
+    border: 2px solid ;
+    padding: 10px;
+    text-align: center;
+    background-color:var(--bg_name_color) ;
+}
+
+/* power stats section */
+#stats-section{
+/* display: grid;
+gap:10px; */
+margin-top: 10px;
+}
+
+/* power stats details */
+.details-section{
+    padding: 30px 35px;
+    font-size: 25px;
+    display: grid;
+    gap:20px;
+    /* background-color: #98492d; */
+}
+
+/* section heading */
+.section-heading{
+    text-align: center;
+    /* font-size: 30px; */
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: var(--font_color_3);
+}
+
+/* superhero details */
+.hero-details{
+    display: grid;
+    gap: 20px;
+}
+
+/* individual item */
+.title{
+    color: var(--font_color_2);
+}
+
+/* responsiveness */
+@media screen and (max-width:700px){
+    
+    #name-stats{
+        width:100%;
+    }
+    
+    #stats-section{
+    width: 100%;
+    }
+
+    .section-heading{
+        font-size: 30px;
+    }
+
+}
