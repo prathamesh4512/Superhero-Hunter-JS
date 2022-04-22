@@ -106,8 +106,8 @@ superHeros.addEventListener("click", (e)=>{
 let target = e.target;
  // functionality for adding & removing heros from favourites.
 if(target.classList.contains("like")){
-    target.classList.toggle("fas");   //add class fas is its present else remove it
-    target.classList.toggle("far");   //add class far is its present else remove it
+    target.classList.toggle("fas");   //remove class fas is its present else add it
+    target.classList.toggle("far");   //remove class far is its present else add it
     let id = target.parentNode.previousElementSibling.id;
     favHeros = JSON.parse(localStorage.getItem("superHeros"));
     let index=favHeros.indexOf(id);
