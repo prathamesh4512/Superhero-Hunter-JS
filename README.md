@@ -1,7 +1,7 @@
 ## Superhero-Hunter-JS
 An dynamic and responsive SuperHero Hunter App developed using vanilla javascript ,HTML and CSS.
 ## Deployed
-Working link of the Web App -> https://prathamesh4512.github.io/Superhero-Hunter-JS/index.html
+Working link of the Web App -> https://prathamesh4512.github.io/Superhero-Hunter-JS/
 ## Description
 Superhero Hunter is a dynamic & responsive web app were you can search any superhero by their name & get their details like image,
 powerstats,biography & apperance in REAL time.
